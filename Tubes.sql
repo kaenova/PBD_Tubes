@@ -18,6 +18,14 @@ Create Table Cabang(
   alamat_cabang varchar2(50)
 );
 
+Create Table Admin (
+    id_admin varchar(4),
+    id_cabang varchar(4),
+    nama_depan_admin varchar(50),
+    nama_belakang_admin varchar(50),
+    CONSTRAINTS PK_id_admin  PRIMARY KEY (id_admin),
+    CONSTRAINT FK_id_cabang FOREIGN KEY (id_cabang) REFERENCES Cabang(id_cabang)
+);
 
 --Input Data
 INSERT INTO mytable(ID_Pengirim,nama_depan,nama_belakang,alamat_pengirim) VALUES ('0101','Ikhsan','Maulana','Bandung');
