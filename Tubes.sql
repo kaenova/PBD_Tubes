@@ -166,3 +166,7 @@ INSERT INTO Admin(ID_Admin,nama_depan_admin,nama_belakang_admin,ID_Cabang) VALUE
 INSERT INTO Admin(ID_Admin,nama_depan_admin,nama_belakang_admin,ID_Cabang) VALUES ('1128','Sanding','Rachmat Yasin','0303');
 INSERT INTO Admin(ID_Admin,nama_depan_admin,nama_belakang_admin,ID_Cabang) VALUES ('1129','I Wayan','Adi Wahyudi','0302');
 INSERT INTO Admin(ID_Admin,nama_depan_admin,nama_belakang_admin,ID_Cabang) VALUES ('1130','Ramadito','Ferdian Assa','0301');
+
+INSERT INTO layanan(ID_layanan,nama_layanan,biayaperjarak) VALUES ('0401','Lemot',1000);
+INSERT INTO layanan(ID_layanan,nama_layanan,biayaperjarak) VALUES ('0402','Sedang',2000);
+INSERT INTO layanan(ID_layanan,nama_layanan,biayaperjarak) VALUES ('0403','Cepat',3000);
