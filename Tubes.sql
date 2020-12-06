@@ -12,6 +12,12 @@ Create Table NomorHPPengirim (
     constraint PK_nomorhppengirim primary key (id_pengirim, no_hp_pengirim)
 );
 
+Create Table Cabang(
+  id_cabang varchar2(4) primary key,
+  nama_cabang varchar2(50),
+  alamat_cabang varchar2(50)
+);
+
 
 --Input Data
 INSERT INTO mytable(ID_Pengirim,nama_depan,nama_belakang,alamat_pengirim) VALUES ('0101','Ikhsan','Maulana','Bandung');
