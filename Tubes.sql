@@ -20,7 +20,7 @@ Create Table Cabang(
 
 Create Table Penerima(
     id_penerima varchar2(4) primary key,
-    nama_depan_penerima varchar2(60),
+    nama_depan_penerima varchar2(50),
     nama_belakang_penerima varchar2(50),
     alamat_penerima varchar2(50)
 );
