@@ -25,6 +25,12 @@ Create Table Penerima(
     alamat_penerima varchar2(50)
 );
 
+Create Table Layanan(
+    id_layanan varchar2(4) primary key,
+    nama_layanan varchar2(50),
+    biayaperjarak number
+);
+
 
 --Input Data
 INSERT INTO pengirim(ID_Pengirim,nama_depan_pengirim,nama_belakang_pengirim,alamat_pengirim) VALUES ('0101','Ikhsan','Maulana','Bandung');
