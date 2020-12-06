@@ -73,3 +73,35 @@ INSERT INTO pengirim(ID_Pengirim,nama_depan_pengirim,nama_belakang_pengirim,alam
 INSERT INTO pengirim(ID_Pengirim,nama_depan_pengirim,nama_belakang_pengirim,alamat_pengirim) VALUES ('0128','Galan','Nitisara','Medan');
 INSERT INTO pengirim(ID_Pengirim,nama_depan_pengirim,nama_belakang_pengirim,alamat_pengirim) VALUES ('0129','Putri','Hawa','Medan');
 INSERT INTO pengirim(ID_Pengirim,nama_depan_pengirim,nama_belakang_pengirim,alamat_pengirim) VALUES ('0130','Putri','Nabila','Bandung');
+
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0201','Kaenova','Mahendra','Bandung');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0202','Rafli','Ramadhan','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0203','Aditya','Koeswojo','Jakarta');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0204','Bambang','Subianto','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0205','Catherine','Yoshawirja','Medan');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0206','Hadi','Suginawan','Bandung');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0207','Lanasari','Halim','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0208','Nanik','Santoso','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0209','Fahmi','Idris','Medan');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0210','Kaman','Halim','Medan');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0211','Nila','Fatina','Bandung');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0212','Tan','Lunardi','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0213','Widjojo','Soejono','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0214','Yap','Johanes','Bandung');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0215','Lie','Soemarli','Medan');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0216','Jennie','Widjaya','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0217','Gunawan','Jusuf','Bandung');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0218','Indra','Widjaja','Medan');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0219','RAIHAN','FAUZI','Medan');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0220','BILLY','HADIPUSPITO','Medan');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0221','FADHLY','AL-FARIZI','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0222','ILHAM','ADISYAH','Medan');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0223','Fachry','Gunawan','Medan');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0224','KURNIA','Roy','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0225','Julianoel','KHANSA','Bandung');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0226','HELLEN','FAYI','Medan');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0227','GALIH','ATHA','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0228','NAUFAL','ADRIAN','Bandung');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0229','M GHIYAATS DAFFA','HIDAYAT','Bogor');
+INSERT INTO penerima(ID_Penerima,nama_depan_penerima,nama_belakang_penerima,alamat_penerima) VALUES ('0230','SYIFA','NUR','Medan');
+
