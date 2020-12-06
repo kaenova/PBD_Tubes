@@ -18,6 +18,13 @@ Create Table Cabang(
   alamat_cabang varchar2(50)
 );
 
+Create Table Penerima(
+    id_penerima varchar2(4) primary key,
+    nama_depan_penerima varchar2(50),
+    nama_belakang_penerima varchar2(50),
+    alamat_penerima varchar2(50)
+);
+
 
 --Input Data
 INSERT INTO mytable(ID_Pengirim,nama_depan,nama_belakang,alamat_pengirim) VALUES ('0101','Ikhsan','Maulana','Bandung');
