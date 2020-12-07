@@ -1,6 +1,6 @@
 
 # Tubes_PBD
-Kaenova Mahendra Auditama <sup>1</sup><br>
+Kaenova Mahendra Auditama<sup>1</sup><br>
 Armadhani Hiro Juni Permana<sup>2</sup><br>
 Maulana Nur<sup>3</sup><br>
 <sup>1</sup>kaenova@student.telkomuniversity.ac.id<br>
