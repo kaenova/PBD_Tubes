@@ -18,13 +18,19 @@ Create Table Cabang(
   alamat_cabang varchar2(50)
 );
 
+Create Table NomorHPCabang (
+    id_cabang varchar2(4),
+    no_hp_cabang varchar2(20),
+    constraint FK_nomorhpcabang foreign key (id_cabang) references cabang(id_cabang),
+    constraint PK_nomorhpcabang primary key (id_cabang, no_hp_cabang)
+);
 
 Create Table Admin (
     id_admin varchar(4),
     id_cabang varchar(4),
     nama_depan_admin varchar(50),
     nama_belakang_admin varchar(50),
-    CONSTRAINTS PK_id_admin  PRIMARY KEY (id_admin),
+    CONSTRAINT PK_id_admin  PRIMARY KEY (id_admin),
     CONSTRAINT FK_id_cabang FOREIGN KEY (id_cabang) REFERENCES Cabang(id_cabang)
 );
 
@@ -33,6 +39,13 @@ Create Table Penerima(
     nama_depan_penerima varchar2(50),
     nama_belakang_penerima varchar2(50),
     alamat_penerima varchar2(50)
+);
+
+Create Table NomorHPPenerima (
+    id_penerima varchar2(4),
+    no_hp_penerima varchar2(20),
+    constraint FK_nomorhppenerima foreign key (id_penerima) references penerima(id_penerima),
+    constraint PK_nomorhppenerima primary key (id_penerima, no_hp_penerima)
 );
 
 Create Table Layanan(
