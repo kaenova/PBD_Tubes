@@ -8,8 +8,8 @@ Create Table Pengirim (
 Create Table NomorHPPengirim (
     id_pengirim varchar2(4),
     no_hp_pengirim varchar2(20),
-    constraint FK_nomorhppengirim foreign key (id_pengirim) references pengirim(id_pengirim),
-    constraint PK_nomorhppengirim primary key (id_pengirim, no_hp_pengirim)
+    constraint FK_NomorHPPengirim foreign key (id_pengirim) references pengirim(id_pengirim),
+    constraint PK_NomorHPPengirim primary key (id_pengirim, no_hp_pengirim)
 );
 
 Create Table Cabang(
@@ -21,17 +21,48 @@ Create Table Cabang(
 Create Table NomorHPCabang (
     id_cabang varchar2(4),
     no_hp_cabang varchar2(20),
-    constraint FK_nomorhpcabang foreign key (id_cabang) references cabang(id_cabang),
-    constraint PK_nomorhpcabang primary key (id_cabang, no_hp_cabang)
+    constraint FK_NomorHPCabang foreign key (id_cabang) references cabang(id_cabang),
+    constraint PK_NomorHPCabang primary key (id_cabang, no_hp_cabang)
 );
 
 Create Table Admin (
-    id_admin varchar(4),
-    id_cabang varchar(4),
-    nama_depan_admin varchar(50),
-    nama_belakang_admin varchar(50),
-    CONSTRAINT PK_id_admin  PRIMARY KEY (id_admin),
-    CONSTRAINT FK_id_cabang FOREIGN KEY (id_cabang) REFERENCES Cabang(id_cabang)
+    id_admin varchar2(4),
+    id_cabang varchar2(4),
+    nama_depan_admin varchar2(50),
+    nama_belakang_admin varchar2(50),
+    CONSTRAINT PK_Admin  PRIMARY KEY (id_admin),
+    CONSTRAINT FK_Admin FOREIGN KEY (id_cabang) REFERENCES Cabang(id_cabang)
+);
+
+Create Table DataPaket(
+  id_paket varchar2(4),
+  id_pengirim varchar2(4),
+  id_penerima varchar2(4),
+  id_layanan varchar2(4),
+  id_admin varchar2(4),
+  hari_kirim varchar2(50),
+  tanggal_kirim DATE,
+  waktu_kirim TIMESTAMP,
+  jenis_paket varchar2(50),
+  berat_paket NUMBER(2,1),
+  harga_paket NUMBER,
+  biaya NUMBER,
+  CONSTRAINT PK_DataPaket  PRIMARY KEY (id_paket),
+  CONSTRAINT FK1_DataPaket FOREIGN KEY (id_pengirim) REFERENCES Pengirim(id_pengirim),
+  CONSTRAINT FK2_DataPaket FOREIGN KEY (id_penerima) REFERENCES Penerima(id_penerima),
+  CONSTRAINT FK3_DataPaket FOREIGN KEY (id_layanan) REFERENCES Layanan(id_layanan),
+  CONSTRAINT FK4_DataPaket FOREIGN KEY (id_admin) REFERENCES Admin(id_admin)
+);
+
+Create Table Laporan (
+  id_laporan varchar2(4),
+  id_paket varchar2(4),
+  hari_terima varchar2(50),
+  tanggal_terima DATE,
+  waktu_terima TIMESTAMP,
+  penerima_paket varchar2(50)
+  CONSTRAINT PK_Laporan  PRIMARY KEY (id_laporan),
+  CONSTRAINT FK_Laporan FOREIGN KEY (id_paket) REFERENCES DataPaket(id_paket)
 );
 
 Create Table Penerima(
@@ -44,8 +75,8 @@ Create Table Penerima(
 Create Table NomorHPPenerima (
     id_penerima varchar2(4),
     no_hp_penerima varchar2(20),
-    constraint FK_nomorhppenerima foreign key (id_penerima) references penerima(id_penerima),
-    constraint PK_nomorhppenerima primary key (id_penerima, no_hp_penerima)
+    constraint FK_NomorHPPenerima foreign key (id_penerima) references penerima(id_penerima),
+    constraint PK_NomorHPPenerima primary key (id_penerima, no_hp_penerima)
 );
 
 Create Table Layanan(
