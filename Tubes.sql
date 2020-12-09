@@ -214,3 +214,35 @@ INSERT INTO NomorHPCabang(ID_Cabang,no_hp_cabang) VALUES ('0327','(295) 200-9192
 INSERT INTO NomorHPCabang(ID_Cabang,no_hp_cabang) VALUES ('0328','(986) 601-6033');
 INSERT INTO NomorHPCabang(ID_Cabang,no_hp_cabang) VALUES ('0329','(918) 937-1664');
 INSERT INTO NomorHPCabang(ID_Cabang,no_hp_cabang) VALUES ('0330','(369) 557-2313');
+
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0227','(705) 280-8728');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0220','(906) 333-9898');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0227','(980) 751-7197');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0213','(442) 887-3515');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0220','(900) 842-4430');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0212','(863) 287-1907');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0218','(570) 994-2206');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0215','(574) 407-7401');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0215','(645) 636-5034');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0204','(717) 957-9625');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0219','(660) 223-5775');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0208','(331) 943-1852');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0206','(764) 739-2634');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0216','(227) 414-1205');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0205','(658) 453-1997');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0220','(412) 702-2372');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0203','(551) 364-7973');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0227','(994) 400-6416');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0209','(502) 510-6710');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0207','(807) 295-2550');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0221','(957) 477-8520');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0218','(252) 738-1771');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0216','(659) 976-4353');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0202','(875) 644-4146');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0201','(825) 529-7679');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0214','(837) 691-9288');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0221','(730) 556-0823');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0212','(597) 767-3891');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0201','(452) 814-8863');
+INSERT INTO NomorHPPenerima(ID_Penerima,no_hp_penerima) VALUES ('0218','(475) 328-0624');
+
