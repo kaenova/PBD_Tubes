@@ -80,7 +80,7 @@ Create Table Laporan (
   id_paket varchar2(4),
   hari_terima varchar2(50),
   tanggal_terima DATE,
-  waktu_terima TIMESTAMP,
+  waktu_terima varchar2(4),
   penerima_paket varchar2(50),
   CONSTRAINT PK_Laporan  PRIMARY KEY (id_laporan),
   CONSTRAINT FK_Laporan FOREIGN KEY (id_paket) REFERENCES DataPaket(id_paket)
