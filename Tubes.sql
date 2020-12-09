@@ -63,7 +63,7 @@ Create Table DataPaket(
   id_admin varchar2(4),
   hari_kirim varchar2(50),
   tanggal_kirim DATE,
-  waktu_kirim TIMESTAMP,
+  waktu_kirim varchar2(4),
   jenis_paket varchar2(50),
   berat_paket NUMBER(2,1),
   harga_paket NUMBER,
