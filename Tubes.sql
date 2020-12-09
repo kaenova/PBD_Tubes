@@ -324,3 +324,19 @@ INSERT INTO DataPaket(ID_Paket,ID_Pengirim,ID_Penerima,ID_Layanan,ID_Admin,hari_
 INSERT INTO DataPaket(ID_Paket,ID_Pengirim,ID_Penerima,ID_Layanan,ID_Admin,hari_kirim,tanggal_kirim,waktu_kirim,jenis_paket,berat_paket,harga_paket,biaya) VALUES ('2013','0102','0212','0403','1128','Sun','18-Oct-2020','1450','Minuman',4,3000,12000);
 INSERT INTO DataPaket(ID_Paket,ID_Pengirim,ID_Penerima,ID_Layanan,ID_Admin,hari_kirim,tanggal_kirim,waktu_kirim,jenis_paket,berat_paket,harga_paket,biaya) VALUES ('2014','0129','0229','0401','1109','Mon','19-Oct-2020','1610','Elektronik',6,2000000,4000);
 INSERT INTO DataPaket(ID_Paket,ID_Pengirim,ID_Penerima,ID_Layanan,ID_Admin,hari_kirim,tanggal_kirim,waktu_kirim,jenis_paket,berat_paket,harga_paket,biaya) VALUES ('2015','0129','0224','0401','1107','Tue','20-Oct-2020','1600','Elektronik',7,2000000,15000);
+
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2101','2001','Fri','9-Oct-2020','1830','Udin');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2102','2002','Sat','10-Oct-2020','1200','Udun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2103','2003','Sun','11-Oct-2020','1900','Edun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2104','2004','Mon','12-Oct-2020','1418','Badun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2105','2005','Tue','13-Oct-2020','0915','Kudun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2106','2006','Wed','14-Oct-2020','1045','Hadun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2107','2007','Thu','15-Oct-2020','1818','Jadun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2108','2008','Fri','16-Oct-2020','1516','Bradun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2109','2009','Sat','17-Oct-2020','1710','Dundun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2110','2010','Sun','18-Oct-2020','1145','Kadun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2111','2011','Mon','19-Oct-2020','1500','Kedun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2112','2012','Tue','20-Oct-2020','1430','Ledun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2113','2013','Wed','21-Oct-2020','1325','Ladun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2114','2014','Thu','22-Oct-2020','1230','Lidun');
+INSERT INTO Laporan(ID_Laporan,ID_Paket,hari_terima,tanggal_terima,waktu_terima,penerima_paket) VALUES ('2115','2015','Fri','23-Oct-2020','1545','Kidun');
