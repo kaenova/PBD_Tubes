@@ -27,3 +27,5 @@ Program ini dibuat untuk membuat database dalam Oracle dengan menggunakan sql. S
 2.  Setiap pengirim akan didata oleh seorang admin yang bertugas mencatat informasi pengiriman. Admin hanya berada pada satu cabang saja tidak berada pada cabang yang lain. Data cabang terdiri dari id_cabang, nama_cabang, alamat dan telp.
 3.  Admin wajib menginputkan data paket dengan informasi data pengirim, penerima dan data paket. Data paket mencakup pada id_paket, hari_kirim, tanggal_kirim, waktu kirim, jenis paket, berat_paket, harga_paket, layanan yang dipilih oleh pengirim serta biaya yang dibayar oleh pengirim.
 4.  Pengirim juga mendapatkan laporan penerimaan paket. Laporan penerimaan paket berisi id_laporan, data kapan paket diterima, siapa yang mengirim paket dan siapa yang menerima paket.
+
+<img  align= "right" src="https://cdn.discordapp.com/attachments/527433841690804224/791558706508726292/Pre-comp-3.gif"  width="200">
